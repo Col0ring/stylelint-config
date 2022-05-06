@@ -1,26 +1,25 @@
-# @col0ring/eslint-config
-Col0ring's Eslint Config Presets.
+# @col0ring/stylelint-config
+Col0ring's Stylelint Config Presets.
 ## Install
 ```sh
-npm install @col0ring/eslint-config -D
+npm install @col0ring/stylelint-config -D
 # or
-yarn add @col0ring/eslint-config -D
+yarn add @col0ring/stylelint-config -D
 ```
 ## Usage
 ```js
-// .eslintrc.js
+// stylelint.config.js
 module.exports = {
-    // js,ts and react
-    extends: ["@col0ring/eslint-config"]
+    extends: ["@col0ring/stylelint-config"]
     // or 
     // extends: ["@col0ring"]
 }
 ```
 if you need a  separate configuration:
 ```js
-// .eslintrc.js
+// stylelint.config.js
 module.exports = {
-    // js ts and react
-    extends: ["@col0ring/eslint-config/basic","@col0ring/eslint-config/typescript","@col0ring/eslint-config/react"]
+    // css less
+    extends: ["@col0ring/stylelint-config/basic","@col0ring/stylelint-config/less"]
 }
 ```
