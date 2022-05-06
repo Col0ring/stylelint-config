@@ -11,8 +11,6 @@ yarn add @col0ring/stylelint-config -D
 // stylelint.config.js
 module.exports = {
     extends: ["@col0ring/stylelint-config"]
-    // or 
-    // extends: ["@col0ring"]
 }
 ```
 if you need a  separate configuration:
