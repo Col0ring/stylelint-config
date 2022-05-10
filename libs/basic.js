@@ -12,6 +12,8 @@ module.exports = {
     'stylelint-declaration-block-no-ignored-properties',
   ],
   rules: {
+    'plugin/declaration-block-no-ignored-properties': true,
+    'font-family-name-quotes': null,
     // 选择器命名
     'selector-class-pattern': [
       // 命名规范

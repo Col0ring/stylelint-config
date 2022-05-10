@@ -1,4 +1,7 @@
 a {
   display: inline;
+
+  /* expect error */
+  /* stylelint-disable-next-line plugin/declaration-block-no-ignored-properties */
   width: 100px;
 }

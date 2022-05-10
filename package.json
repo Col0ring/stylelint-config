@@ -1,7 +1,7 @@
 {
   "name": "@col0ring/stylelint-config",
   "description": "Col0ring's Stylelint Config Presets",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./libs/index.js",
   "publishConfig": {
     "access": "public",
