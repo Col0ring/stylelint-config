@@ -1,7 +1,7 @@
 {
   "name": "@col0ring/stylelint-config",
   "description": "Col0ring's Stylelint Config Presets",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./libs/index.js",
   "publishConfig": {
     "access": "public",
@@ -22,7 +22,7 @@
     }
   },
   "scripts": {
-    "lint": "stylelint \"**/*.(le|c)ss\" ---custom-syntax postcss-less"
+    "lint": "stylelint \"**/*.(le|c)ss\""
   },
   "keywords": [
     "stylelint",
@@ -41,7 +41,9 @@
   "homepage": "https://github.com/col0ring/stylelint-config",
   "license": "MIT",
   "peerDependencies": {
-    "stylelint": ">=14.8.2"
+    "stylelint": ">=14.8.2",
+    "postcss": ">=8.4.13",
+    "postcss-less": ">=6.0.0"
   },
   "devDependencies": {
     "postcss": "^8.4.13",
