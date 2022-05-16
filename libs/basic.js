@@ -1,4 +1,13 @@
 module.exports = {
+  ignoreFiles: [
+    '/**/*.min.*',
+    '/**/dist/**',
+    '/**/output/**',
+    '/**/coverage/**',
+    '/**/public/**',
+    '/**/temp/**',
+    '/**/__snapshots__/**',
+  ],
   extends: [
     // 标准配置
     'stylelint-config-standard',
