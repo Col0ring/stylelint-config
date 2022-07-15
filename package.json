@@ -34,7 +34,7 @@
   },
   "main": "./libs/index.js",
   "scripts": {
-    "lint": "stylelint \"**/*.(le|c)ss\""
+    "lint": "stylelint \"**/*.(le|c)ss\" && prettier --write ."
   },
   "dependencies": {
     "stylelint-config-prettier": "^9.0.3",
