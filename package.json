@@ -1,11 +1,22 @@
 {
   "name": "@col0ring/stylelint-config",
+  "version": "0.0.8",
   "description": "Col0ring's Stylelint Config Presets",
-  "version": "0.0.7",
-  "main": "./libs/index.js",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "css",
+    "less"
+  ],
+  "homepage": "https://github.com/col0ring/stylelint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/col0ring/stylelint-config"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Col0ring",
+    "email": "1561999073@qq.com"
   },
   "exports": {
     ".": {
@@ -21,35 +32,9 @@
       "require": "./libs/less.js"
     }
   },
+  "main": "./libs/index.js",
   "scripts": {
     "lint": "stylelint \"**/*.(le|c)ss\""
-  },
-  "keywords": [
-    "stylelint",
-    "stylelint-config",
-    "css",
-    "less"
-  ],
-  "author": {
-    "email": "1561999073@qq.com",
-    "name": "Col0ring"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/col0ring/stylelint-config"
-  },
-  "homepage": "https://github.com/col0ring/stylelint-config",
-  "license": "MIT",
-  "peerDependencies": {
-    "postcss": ">=8.4.13",
-    "postcss-less": ">=6.0.0",
-    "stylelint": ">=14.8.2"
-  },
-  "devDependencies": {
-    "postcss": "^8.4.14",
-    "postcss-less": "^6.0.0",
-    "prettier": "^2.7.1",
-    "stylelint": "^14.9.1"
   },
   "dependencies": {
     "stylelint-config-prettier": "^9.0.3",
@@ -58,5 +43,21 @@
     "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
     "stylelint-order": "^5.0.0",
     "stylelint-prettier": "^2.0.0"
+  },
+  "devDependencies": {
+    "@col0ring/prettier-config": "^0.0.2",
+    "postcss": "^8.4.14",
+    "postcss-less": "^6.0.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.9.1"
+  },
+  "peerDependencies": {
+    "postcss": ">=8.4.13",
+    "postcss-less": ">=6.0.0",
+    "stylelint": ">=14.8.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
