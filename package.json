@@ -1,6 +1,6 @@
 {
   "name": "@col0ring/stylelint-config",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Col0ring's Stylelint Config Presets",
   "keywords": [
     "stylelint",
@@ -37,23 +37,23 @@
     "lint": "stylelint \"**/*.(le|c)ss\" && prettier --write ."
   },
   "dependencies": {
-    "stylelint-config-prettier": "^9.0.3",
+    "postcss": "^8.4.23",
+    "postcss-less": "^6.0.0",
+    "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^26.0.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
-    "stylelint-order": "^5.0.0",
-    "stylelint-prettier": "^2.0.0"
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^3.0.0"
   },
   "devDependencies": {
-    "@col0ring/prettier-config": "^0.0.2",
+    "@col0ring/prettier-config": "^0.0.3",
     "postcss": "^8.4.14",
     "postcss-less": "^6.0.0",
-    "prettier": "^2.7.1",
-    "stylelint": "^14.9.1"
+    "prettier": "^2.8.8",
+    "stylelint": "^15.6.1"
   },
   "peerDependencies": {
-    "postcss": ">=8.4.13",
-    "postcss-less": ">=6.0.0",
     "stylelint": ">=14.8.2"
   },
   "publishConfig": {

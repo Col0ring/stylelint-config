@@ -1,5 +1,7 @@
 module.exports = {
   ignoreFiles: [
+    '/**/.umi/**',
+    '/**/.umi-production/**',
     '/**/*.min.*',
     '/**/dist/**',
     '/**/output/**',
@@ -7,6 +9,12 @@ module.exports = {
     '/**/public/**',
     '/**/temp/**',
     '/**/__snapshots__/**',
+    // dumi
+    '/**/docs-dist/**',
+    '/**/.dumi/tmp/**',
+    '/**/.dumi/tmp-test/**',
+    '/**/.dumi/tmp-production/**',
+    '/**/tmp/**',
   ],
   extends: [
     // 标准配置
@@ -23,6 +31,9 @@ module.exports = {
   rules: {
     'plugin/declaration-block-no-ignored-properties': true,
     'font-family-name-quotes': null,
+    // rgba
+    'color-function-notation': 'legacy',
+    'alpha-value-notation': 'number',
     // 选择器命名
     'selector-class-pattern': [
       // 命名规范
